@@ -1,3 +1,3 @@
-import vista.menuPrincipal as juego
+import vista.entrada as entrada
 
-juego.juego()
+entrada.menuEntradas()

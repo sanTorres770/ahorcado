@@ -1,6 +1,6 @@
 import os
 import time
-
+import vista.menuPrincipal as menuPrincipal
 
 
 def categorias():
@@ -39,9 +39,7 @@ def categorias():
                 print('El juego esta listo...')
                 time.sleep(0.5)
                 opcionElegida = "lenguajes"
-                print(opcionElegida)
-                input('')
-                categorias()
+                menuPrincipal.juego(opcionElegida)
             case 2:
                 os.system('cls')
                 print('Preparando la palabra.')
@@ -56,9 +54,7 @@ def categorias():
                 print('El juego esta listo...')
                 time.sleep(0.5)
                 opcionElegida = "animales"
-                print(opcionElegida)
-                input('')
-                categorias()
+                menuPrincipal.juego(opcionElegida)
             case 3:
                 os.system('cls')
                 print('Preparando la palabra.')
@@ -73,9 +69,7 @@ def categorias():
                 print('El juego esta listo...')
                 time.sleep(0.5)
                 opcionElegida = "temas"
-                print(opcionElegida)
-                input('')
-                categorias()
+                menuPrincipal.juego(opcionElegida)
             case 4:
                 os.system('cls')
                 print('Preparando la palabra.')
@@ -90,7 +84,4 @@ def categorias():
                 print('El juego esta listo...')
                 time.sleep(0.5)
                 opcionElegida = "nombres"
-                print(opcionElegida)
-                input('')
-                categorias()
-
+                menuPrincipal.juego(opcionElegida)
