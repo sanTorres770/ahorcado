@@ -4,12 +4,11 @@ import persistencia.tabla as persistencia
 import controlador.categoriaController as categoriaController
 
 
-def juego():
+def juego(opcionElegida):
     aciertos = 0
     intentos = 0
     fallos = 0
     figuraAhorcado = persistencia.AHORCADO
-    opcionElegida = "lenguajes"
     tuplaPalabra = categoriaController.elegirPalabraRandom(opcionElegida)
     palabraADescubrir = tuplaPalabra[0]
     palabraADescubrirLista = list(palabraADescubrir)
