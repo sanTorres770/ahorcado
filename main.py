@@ -1,1 +1,3 @@
-print("hello")
+import vista.menuPrincipal as juego
+
+juego.juego()
