@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10780471-ab32-42ee-947d-9d247c264e9e" name="Changes" comment="se adicionan vistas del juego" />
+    <list default="true" id="1b6d8abc-64d5-4123-aeea-f32b1072c74d" name="Changes" comment="se adiciona funcionalidad del juego">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistencia/tabla.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/tabla.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vista/entrada.py" beforeDir="false" afterPath="$PROJECT_DIR$/vista/entrada.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vista/menuPrincipal.py" beforeDir="false" afterPath="$PROJECT_DIR$/vista/menuPrincipal.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,5 +130,9 @@
     <MESSAGE value="se adiciona estructura del proyecto" />
     <MESSAGE value="se adicionan vistas del juego" />
     <option name="LAST_COMMIT_MESSAGE" value="se adicionan vistas del juego" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ahorcado$main.coverage" NAME="main Coverage Results" MODIFIED="1668295017973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ahorcado$menuPrincipal.coverage" NAME="menuPrincipal Coverage Results" MODIFIED="1668275302926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vista" />
   </component>
 </project>

@@ -15,7 +15,7 @@ def juego(opcionElegida):
     lineasPalabra = crearLineas(palabraADescubrir)
 
 
-    while aciertos <= len(palabraADescubrir):
+    while aciertos <= tuplaPalabra[1]:
         os.system("cls")
         print(figuraAhorcado[fallos])
         print("")
@@ -44,12 +44,12 @@ def juego(opcionElegida):
                     aciertos += 1
                     intentos += 1
 
-        if fallos == 7:
+        if fallos == 10:
             print(figuraAhorcado[fallos-1])
             print("perdió")
             break
 
-        if aciertos == len(palabraADescubrir):
+        if aciertos == tuplaPalabra[1]:
             print(figuraAhorcado[fallos])
             print("")
             mostrarLineas(lineasPalabra)
@@ -61,7 +61,11 @@ def crearLineas(palabra):
     lineas = []
 
     for letras in palabra:
-        lineas.append("__")
+
+        if letras == " ":
+            lineas.append(" ")
+        else:
+            lineas.append("__")
 
     return lineas
 
@@ -70,6 +74,6 @@ def mostrarLineas(listaDeLineas):
     lineas = ""
 
     for letras in listaDeLineas:
-        lineas = lineas + " " + letras
+        lineas = lineas + " " + letras.upper()
 
     print(lineas)
