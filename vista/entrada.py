@@ -7,37 +7,35 @@ import tabulate
 
 
 def menuEntradas():
-
     seleccion = 0
-    while seleccion <= 0 or seleccion > 3 :
+    while seleccion <= 0 or seleccion > 3:
         os.system('cls')
-        print('************ BIENVENIDO AL AHORACDO REMINGTON **************')
-        print('______________\n'
-            '    |        |\n'
-            '    O        |\n'
-            '   /|\       |\n'
-            '  / | \      |\n'
-            '    |        |\n'
-            '   / \       |\n'
-            '  /   \      |\n')
-        print('------------------------------------------------------------')
-        print('| Ahorcado, el juego donde tienes que adivinar la palabra  |\n'
-              '|                       escondida.                         |')
-        print('------------------------------------------------------------')
-        print('------------------------------------------------------------')
-        print('******************** OPCIONES DEL JUEGO ********************')
-        print('|                        1.Entrar                          |')
-        print('|                      2.Ver reglas                        |')
-        print('|                    3.Salir del juego                     |')
-        print('------------------------------------------------------------')
+        print('\t' * 2, '******* BIENVENIDO AL AHORCADO REMINGTON *******')
+        print('\t' * 4, '______________')
+        print('\t' * 4, '    |        |')
+        print('\t' * 4, '    O        |')
+        print('\t' * 4, '   /|\       |')
+        print('\t' * 4, '   / \       |')
+        print('\t' * 4, '  /   \      |')
+        print('\t' * 1, '------------------------------------------------------------')
+        print('\t' * 1, '| Ahorcado, el juego donde tienes que adivinar la palabra  |')
+        print('\t' * 1, '|                       escondida.                         |')
+        print('\t' * 1, '------------------------------------------------------------')
+        print('\t' * 1, '------------------------------------------------------------')
+        print('\t' * 1, '******************** OPCIONES DEL JUEGO ********************')
+        print('\t' * 1, '|                        1.Jugar                           |')
+        print('\t' * 1, '|                      2.Ver reglas                        |')
+        print('\t' * 1, '|                    3.Salir del juego                     |')
+        print('\t' * 1, '------------------------------------------------------------')
 
         try:
-            seleccion = int(input ('Ingresa el numero para ingresar al menu: '))
+            seleccion = int(input('Ingresa la opción deseada: '))
+
             match seleccion:
                 case 0:
                     input(f"El {seleccion} no es una opción válida. Presione cualquier tecla para intentarlo de nuevo.")
                 case 1:
-                    print("\t" * 3, "Llendo a la entrada del juego...")
+                    print("\t" * 3, "Entrando al juego...")
                     time.sleep(0.75)
                     menuCategorias.categorias()
                 case 2:
