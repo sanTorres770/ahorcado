@@ -1,6 +1,5 @@
-import persistencia.tabla as persistencia
+import persistencia.tablas as persistencia
 
 
-def obtenerListaSegunCategoria(opcionElegida):
-
-    return persistencia.categorias[opcionElegida]
+def obtenerListaDeCategorias():
+    return persistencia.tablaCategorias

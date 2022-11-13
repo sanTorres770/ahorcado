@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6d8abc-64d5-4123-aeea-f32b1072c74d" name="Changes" comment="se adiciona funcionalidad del juego">
+    <list default="true" id="1b6d8abc-64d5-4123-aeea-f32b1072c74d" name="Changes" comment="se adiciona funcionalidad completa del juego">
+      <change afterPath="$PROJECT_DIR$/controlador/palabraController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelo/palabraModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistencia/tabla.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/tabla.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clases/categoria.py" beforeDir="false" afterPath="$PROJECT_DIR$/clases/categoria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlador/categoriaController.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlador/categoriaController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelo/categoriaModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelo/categoriaModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistencia/tabla.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/tablas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vista/entrada.py" beforeDir="false" afterPath="$PROJECT_DIR$/vista/entrada.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vista/fin.py" beforeDir="false" afterPath="$PROJECT_DIR$/vista/fin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vista/menuCategorias.py" beforeDir="false" afterPath="$PROJECT_DIR$/vista/menuCategorias.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vista/menuPrincipal.py" beforeDir="false" afterPath="$PROJECT_DIR$/vista/menuPrincipal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vista/menuReglas.py" beforeDir="false" afterPath="$PROJECT_DIR$/vista/menuReglas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,12 +81,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="349cfda5-55d4-481b-82dd-2c906de7c116" name="Changes" comment="" />
+      <changelist id="1b6d8abc-64d5-4123-aeea-f32b1072c74d" name="Changes" comment="se adiciona funcionalidad completa del juego" />
       <created>1668270876699</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668270876699</updated>
       <workItem from="1668270878003" duration="15571000" />
+      <workItem from="1668360233782" duration="14323000" />
     </task>
     <task id="LOCAL-00001" summary="se adiciona estructura del proyecto">
       <created>1668271072532</created>
@@ -108,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668290907130</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="se adiciona funcionalidad completa del juego">
+      <created>1668295663234</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668295663234</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,10 +145,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="se adiciona estructura del proyecto" />
     <MESSAGE value="se adicionan vistas del juego" />
-    <option name="LAST_COMMIT_MESSAGE" value="se adicionan vistas del juego" />
+    <MESSAGE value="se adiciona funcionalidad completa del juego" />
+    <option name="LAST_COMMIT_MESSAGE" value="se adiciona funcionalidad completa del juego" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ahorcado$main.coverage" NAME="main Coverage Results" MODIFIED="1668295017973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ahorcado$main.coverage" NAME="main Coverage Results" MODIFIED="1668366571933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ahorcado$menuPrincipal.coverage" NAME="menuPrincipal Coverage Results" MODIFIED="1668275302926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vista" />
   </component>
 </project>
